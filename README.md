@@ -1,5 +1,7 @@
 # ML-Classification
 
+## Introduction
+
 This repository contains examples of best practices for solving Machine Learning Classification problems throughout the entire machine learning product life cycle, from data analysis to placing the final machine learning model in production. The code is organized into Jupyter notebooks, with each notebook focusing on a specific classification technique or dataset.
 
 My goal is to provide a clear and concise set of examples that can help you learn how to effectively tackle classification problems, and to guide you through each step of the process, from data exploration and model training to deployment and monitoring. I believe that understanding the entire process of developing a machine learning model, from data cleaning and preprocessing to deploying and maintaining the model in a production environment, is crucial for creating successful machine learning products.
