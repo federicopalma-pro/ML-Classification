@@ -11,3 +11,9 @@ In addition to the notebooks, I've also included a set of scripts and utilities 
 Whether you're just getting started with Machine Learning or you're a seasoned practitioner, I believe you'll find something of value in this repository. I encourage you to explore the notebooks, try out the code for yourself, and let me know if you have any questions or feedback.
 
 Happy classifying!
+
+## Dataset
+
+he dataset used in this project is the "Penguins" dataset, which was obtained from OpenML. This dataset contains information about three different species of penguins (Adelie, Chinstrap, and Gentoo) and their physical characteristics such as bill length, flipper length, and body mass.
+
+The penguins dataset is an excellent alternative to the commonly used iris dataset for data exploration and visualization. With 344 rows and 8 columns, it provides enough data for meaningful analysis without being overwhelming. Additionally, the inclusion of multiple species allows for more complex analysis and visualization techniques that cannot be performed on the iris dataset.
