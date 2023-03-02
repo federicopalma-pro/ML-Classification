@@ -14,7 +14,7 @@ Happy classifying!
 
 ## Dataset
 
-he dataset used in this project is the "Penguins" dataset, which was obtained from OpenML. This dataset contains information about three different species of penguins (Adelie, Chinstrap, and Gentoo) and their physical characteristics such as bill length, flipper length, and body mass.
+The dataset used in this project is the "Penguins" dataset, which was obtained from OpenML. This dataset contains information about three different species of penguins (Adelie, Chinstrap, and Gentoo) and their physical characteristics such as bill length, flipper length, and body mass.
 
 The penguins dataset is an excellent alternative to the commonly used iris dataset for data exploration and visualization. With 344 rows and 8 columns, it provides enough data for meaningful analysis without being overwhelming. Additionally, the inclusion of multiple species allows for more complex analysis and visualization techniques that cannot be performed on the iris dataset.
 
