@@ -1,5 +1,4 @@
 # ML-Classification
-Sure! Here's the updated description that uses "My/I" instead of "Our/We":
 
 This repository contains examples of best practices for solving Machine Learning Classification problems throughout the entire machine learning product life cycle, from data analysis to placing the final machine learning model in production. The code is organized into Jupyter notebooks, with each notebook focusing on a specific classification technique or dataset.
 
