@@ -33,3 +33,18 @@ We can then instantiate multiple classification models and fit them to our train
 After training the models, we can evaluate their performances on the testing set by calculating metrics such as precision, recall, accuracy, and F1 score. We can then visualize the performance of different models by plotting precision and recall curves, which allow us to compare their performance at different thresholds.
 
 Through this process, we can identify the most promising machine learning models for our dataset and select the one that performs best in terms of precision, recall, and overall accuracy. By selecting the best-performing model, we can build a reliable and effective machine learning classifier that can make predictions in production environments.
+
+## 3 - Model optimization
+
+Once we have identified the most promising model, it's time to integrate it into a pipeline to achieve two results:
+
+1) Transform the input data that we want to predict using our machine learning model.
+2) Perform a Grid Search process to search for the best hyperparameters.
+
+By integrating the model into a pipeline, we can streamline the process of making predictions on new data and optimize the model's performance through hyperparameter tuning.
+
+The Grid Search process involves selecting a set of hyperparameters and exhaustively searching for the combination of hyperparameters that result in the best performance of the model. This process can be computationally expensive, but Sklearn provides efficient tools to perform Grid Search on a range of hyperparameters.
+
+Once we have completed this process, we can compare the performance of the base model and the optimized model to see if the hyperparameter tuning has improved the model's performance. This comparison can be done by evaluating metrics such as accuracy, precision, recall, and F1-score.
+
+In summary, model optimization involves integrating the most promising model into a pipeline, performing hyperparameter tuning through Grid Search, and comparing the performance of the base and optimized models. This process can significantly improve the performance of the machine learning model, making it more accurate and suitable for production-level predictions.
