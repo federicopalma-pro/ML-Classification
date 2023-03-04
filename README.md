@@ -23,3 +23,13 @@ The penguins dataset is an excellent alternative to the commonly used iris datas
 The first step in solving a machine learning classification problem is to preprocess the dataset. Using the Pandas library, we load the "penguins.csv" file and then analyze it to determine which features are numerical, which are categorical, and which is the target variable. It's essential to identify and handle any missing values or NaNs in the dataset, either by replacing or removing them. In our case, since there are only a few NaNs, we choose to remove them.
 
 The next critical step is to transform categorical features into numerical ones using OneHotEncoder and scale numerical features using Standarscaler. Additionally, we need to transform the classes present in the target variable into numerical labels using LabelEncoder. After completing these preprocessing steps, we can save the datasets ready for use by the Sklearn machine learning libraries.
+
+## 2 - Classification lab
+
+Once we have preprocessed our penguins dataset, the next step is to train and test various classification models with Sklearn. By loading the dataset in the X and y format, we can create a training set and a testing set, ensuring that our models can generalize to unseen data.
+
+We can then instantiate multiple classification models and fit them to our training set. Some of the models we can use include Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVMs), and K-Nearest Neighbors (KNN).
+
+After training the models, we can evaluate their performances on the testing set by calculating metrics such as precision, recall, accuracy, and F1 score. We can then visualize the performance of different models by plotting precision and recall curves, which allow us to compare their performance at different thresholds.
+
+Through this process, we can identify the most promising machine learning models for our dataset and select the one that performs best in terms of precision, recall, and overall accuracy. By selecting the best-performing model, we can build a reliable and effective machine learning classifier that can make predictions in production environments.
