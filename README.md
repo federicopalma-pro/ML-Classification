@@ -19,3 +19,7 @@ The dataset used in this project is the "Penguins" dataset, which was obtained f
 The penguins dataset is an excellent alternative to the commonly used iris dataset for data exploration and visualization. With 344 rows and 8 columns, it provides enough data for meaningful analysis without being overwhelming. Additionally, the inclusion of multiple species allows for more complex analysis and visualization techniques that cannot be performed on the iris dataset.
 
 ## 1 - Preprocessing dataset
+
+The first step in solving a machine learning classification problem is to preprocess the dataset. Using the Pandas library, we load the "penguins.csv" file and then analyze it to determine which features are numerical, which are categorical, and which is the target variable. It's essential to identify and handle any missing values or NaNs in the dataset, either by replacing or removing them. In our case, since there are only a few NaNs, we choose to remove them.
+
+The next critical step is to transform categorical features into numerical ones using OneHotEncoder and scale numerical features using Standarscaler. Additionally, we need to transform the classes present in the target variable into numerical labels using LabelEncoder. After completing these preprocessing steps, we can save the datasets ready for use by the Sklearn machine learning libraries.
