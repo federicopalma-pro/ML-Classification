@@ -10,8 +10,6 @@ In addition to the notebooks, I've also included a set of scripts and utilities 
 
 Whether you're just getting started with Machine Learning or you're a seasoned practitioner, I believe you'll find something of value in this repository. I encourage you to explore the notebooks, try out the code for yourself, and let me know if you have any questions or feedback.
 
-Happy classifying!
-
 ## Dataset
 
 The dataset used in this project is the "Penguins" dataset, which was obtained from OpenML. This dataset contains information about three different species of penguins (Adelie, Chinstrap, and Gentoo) and their physical characteristics such as bill length, flipper length, and body mass.
@@ -48,3 +46,15 @@ The Grid Search process involves selecting a set of hyperparameters and exhausti
 Once we have completed this process, we can compare the performance of the base model and the optimized model to see if the hyperparameter tuning has improved the model's performance. This comparison can be done by evaluating metrics such as accuracy, precision, recall, and F1-score.
 
 In summary, model optimization involves integrating the most promising model into a pipeline, performing hyperparameter tuning through Grid Search, and comparing the performance of the base and optimized models. This process can significantly improve the performance of the machine learning model, making it more accurate and suitable for production-level predictions.
+
+## 4 - Pipeline for production
+
+In the final step, we reconstruct the pipeline of our model by including the necessary input data transformations and the previously optimized model with the best hyperparameters. We can then train the pipeline one last time on the X and y data of our penguins dataset and save it to disk using the joblib library.
+
+At this point, our classification predictive model is ready to be integrated into any production application. The pipeline can be easily deployed to a cloud environment, such as Amazon Web Services (AWS), Google Cloud Platform (GCP) or Microsoft Azure, or to an on-premises server. Once deployed, the pipeline can receive input data and provide predictions in real-time, enabling us to make accurate decisions and automate processes based on the predictions made by our machine learning model.
+
+## Final notes
+
+You can use these four steps outlined in the Jupyter Notebook worksheets for any binary or multi-classification work. Of course, these should be understood as a solid starting point that needs to be adapted to the needs of your project. However, from personal experience, they can significantly accelerate the workflow for the entire life cycle of the predictive machine learning model.
+
+Happy classifying!
